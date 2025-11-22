@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;  
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;  
+    border: 4px solid black;
+    padding: 20px;
+}
+
+.product {
+    width: 30%;
+    padding: 20px;
+    background: white;
+}
+
+.product h2 {
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+}
+
+
+.product.pink {
+    border: 4px solid #ff6eb4;
+}
+
+.product.pink h2 {
+    border-color: #ff6eb4;
+}
+
+
+.product.gray {
+    border: 4px dashed gray;
+}
+
+.product.gray h2 {
+    border-color: gray;
+}
+
+.product p {
+    color: #d18f00;
+    font-size: 14px;
+}
+
